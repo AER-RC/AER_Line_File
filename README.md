@@ -20,6 +20,8 @@ Before running the download script, the user will need to install the Zenodo Pyt
 pip install -r requirements.txt
 ```
 
+Note that we install `v1.3.0` of the package, which was released in February 2020. The code in this repository is currently incompatible with `v1.3.2`.
+
 # Downloading and Staging the Line File
 
 Assuming the user has `cd`'d into `AER_Line_File`, they can download and untar the AER Line File package with:
@@ -27,3 +29,14 @@ Assuming the user has `cd`'d into `AER_Line_File`, they can download and untar t
 ```
 ./get_line_file.py
 ```
+
+Currently, the tarball is downloaded as `aer_v_3.7.tar.gz`, extracted, then renamed `AER_Line_File`. Under this directory is the familiar directory structure:
+
+```
+% ls AER_Line_File/
+extra_brd_params        RELEASE_NOTES_aer_linefile  xs_files
+line_file               spd_dep
+line_files_By_Molecule  spectral_lines_for_MonoRTM
+```
+
+Users will likely want to use `AER_Line_File/line_file/aer_v_?.?` with [LNFL](https://github.com/AER-RC/LNFL).
