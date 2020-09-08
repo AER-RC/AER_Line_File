@@ -82,7 +82,7 @@ class lineFile():
       os.rename(self.tarDir, self.linesDir)
     else:
       print('{} already exists, using its Line File contents'.
-        format(self.modelDir))
+        format(self.linesDir))
     # endif modelDir
   # end getLineFile()
 # end lineFile class
@@ -97,7 +97,7 @@ if __name__ == '__main__':
   parser.add_argument('-lines', '--lines_path', \
     default='AER_Line_File', help='Top-level path of AER line file.')
   parser.add_argument('-record', '--record_id', type=int, \
-    default=3837550, help='Zenodo record ID for the line file.')
+    default=4019086, help='Zenodo record ID for the line file.')
   args = parser.parse_args()
 
   subObj = lineFile(vars(args))
