@@ -20,5 +20,5 @@ For users new to Zenodo, it is recommended that "practice runs" of releasing new
    - https://github.com/AER-RC/AER_Line_File/wiki
    - https://github.com/AER-RC/LBLRTM/blob/master/README.md
    - https://github.com/AER-RC/LBLRTM/wiki
-   - https://github.com/AER-RC/mt-ckd/blob/master/README.md
+   - https://github.com/AER-RC/MT_CKD/blob/master/README.md
    - https://github.com/AER-RC/cross-sections
