@@ -6,7 +6,7 @@ The AER Line File starts with HITRAN parameters, then modifies them with observe
 
 | LBLRTM Release | MT_CKD Release | Line File |
 | :---: | :---: | :---: |
-| [v12.11](https://github.com/AER-RC/LBLRTM/releases/tag/v12.11) | [v3.5](https://github.com/AER-RC/MT_CKD/releases/tag/v3.5) | [v3.8.1](https://zenodo.org/record/5120012/files/aer_v_3.8.1.tar.gz?download=1) |
+| [v12.11](https://github.com/AER-RC/LBLRTM/releases/tag/v12.17) | [v4.3](https://github.com/AER-RC/MT_CKD/releases/tag/v4.3) | [v3.8.1](https://zenodo.org/record/5120012/files/aer_v_3.8.1.tar.gz?download=1) |
 
 # Cloning the Repository
 
