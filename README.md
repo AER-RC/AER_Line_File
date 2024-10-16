@@ -33,10 +33,10 @@ Note that we install `v1.3.0` of the package, which was released in February 202
 Assuming the user has `cd`'d into `AER_Line_File`, they can download and untar the AER Line File package with:
 
 ```
-./get_line_file.py
+./get_line_file.py -r 5120012
 ```
 
-Currently, the tarball is downloaded as `aer_v_3.8.1.tar.gz`, extracted, then renamed `AER_Line_File`. Under this directory is the familiar directory structure:
+Currently, the tarball is downloaded as `aer_v_3.8.1.tar.gz` (record 5120012), extracted, then renamed `AER_Line_File`. Under this directory is the familiar directory structure:
 
 ```
 % ls AER_Line_File/
