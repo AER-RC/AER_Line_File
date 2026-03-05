@@ -1,12 +1,12 @@
 # AER_Line_File
 
-The AER Line File starts with HITRAN parameters, then modifies them with observed parameters (e.g., through radiation closure studies). It is publicly available on [on Zenodo](https://zenodo.org/record/5120012). This repository does **not** contain this database, because it is a very large set of files. Rather, we provide a simple script that leverages the [Zenodo Python API](https://pypi.org/project/zenodo-get/) to download the file. While the user is free to download the Line File on their own, this repository will also serve as reference, since it will contain documentation in this README and in the [Wiki Pages](https://github.com/AER-RC/AER_Line_File/wiki).
+The AER Line File starts with HITRAN parameters, then modifies them with observed parameters (e.g., through radiation closure studies). It is publicly available on [on Zenodo](https://zenodo.org/record/18881607). This repository does **not** contain this database, because it is a very large set of files. Rather, we provide a simple script that leverages the [Zenodo Python API](https://pypi.org/project/zenodo-get/) to download the file. While the user is free to download the Line File on their own, this repository will also serve as reference, since it will contain documentation in this README and in the [Wiki Pages](https://github.com/AER-RC/AER_Line_File/wiki).
 
 [LBLRTM](https://github.com/AER-RC/LBLRTM) uses the line parameters and [MT_CKD continuum](https://github.com/AER-RC/MT_CKD) in its calculations. The models and data are thus linked. For the latest release, the relationships are:
 
 | LBLRTM Release | MT_CKD Release | Line File |
 | :---: | :---: | :---: |
-| [v12.17](https://github.com/AER-RC/LBLRTM/releases/tag/v12.17) | [v4.3](https://github.com/AER-RC/MT_CKD/releases/tag/4.3) | [v3.8.1](https://zenodo.org/record/5120012/files/aer_v_3.8.1.tar.gz?download=1) |
+| [v12.17](https://github.com/AER-RC/LBLRTM/releases/tag/v12.17) | [v4.3](https://github.com/AER-RC/MT_CKD/releases/tag/4.3) | [v3.9](https://zenodo.org/records/18881607/files/aer_v_3.9.tgz?download=1) |
 
 # Cloning the Repository
 
@@ -33,10 +33,10 @@ Note that we install `v1.3.0` of the package, which was released in February 202
 Assuming the user has `cd`'d into `AER_Line_File`, they can download and untar the AER Line File package with:
 
 ```
-./get_line_file.py -r 5120012
+./get_line_file.py -r 18881607
 ```
 
-Currently, the tarball is downloaded as `aer_v_3.8.1.tar.gz` (record 5120012), extracted, then renamed `AER_Line_File`. Under this directory is the familiar directory structure:
+Currently, the tarball is downloaded as `aer_v_3.9.tar.gz` (record 18881607), extracted, then renamed `AER_Line_File`. Under this directory is the familiar directory structure:
 
 ```
 % ls AER_Line_File/
